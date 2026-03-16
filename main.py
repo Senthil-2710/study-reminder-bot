@@ -109,7 +109,7 @@ while True:
     now = datetime.now()
     current_time = now.strftime("%H:%M")
     
-    if current_time == "11:48" and last_triggered != current_time:
+    if current_time == "06:25" and last_triggered != current_time:
         last_triggered = current_time
         study_alarm()
     
