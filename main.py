@@ -122,7 +122,7 @@ print("You will get a message at 8:00 PM every day.")
 
 while True:
     now = datetime.now()
-    if now.hour == 20 and now.minute == 0:
+    if now.hour == 11 and now.minute == 27:
         study_alarm()
         time.sleep(60)
     time.sleep(30)
